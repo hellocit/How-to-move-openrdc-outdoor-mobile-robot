@@ -4,16 +4,19 @@
 バッテリの満充電の電圧　型番と損耗率の確認
 * ケーブルの確認
 alphaとgammaのセンサ等の確認をする。
-* 
+* ls /dev/sensors
+ライダー,IMUやicartminiがあるか確認
 * 
 * 
 * 
 
 ## How to operate
-
+* ラジコンにするコマンド
+1. ドライブの起動
 ```
 roslaunch orne_navigation orne_alpha.launch
 ```
+2. joy stick contoller
 ```
 roslaucch icart_mini_driver teleop_joy.launch
 ```
