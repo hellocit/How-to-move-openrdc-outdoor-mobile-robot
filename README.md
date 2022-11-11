@@ -1,4 +1,4 @@
-# How-to-move-openrdc-robot
+# How-to-move-openrdc-outdoor mobile robot
 ## ハードウェアの確認
 * 電源の確認をする。　
 バッテリの満充電の電圧　型番と損耗率の確認
